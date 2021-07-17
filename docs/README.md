@@ -5,3 +5,5 @@ Open https://raghavj12.github.io/Dyte_task/ to view it in the browser.
 
 use npm i bulma to install bulma css
 [http://localhost:3000]
+
+check out sample ss for images of website
