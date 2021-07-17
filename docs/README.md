@@ -7,3 +7,5 @@ use npm i bulma to install bulma css
 [http://localhost:3000]
 
 check out sample ss for images of website
+
+KINDLY CHECK OUT GH-BRANCH
