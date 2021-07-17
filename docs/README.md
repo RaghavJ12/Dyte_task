@@ -8,4 +8,3 @@ use npm i bulma to install bulma css
 
 check out sample ss for images of website
 
-KINDLY CHECK OUT GH-BRANCH
