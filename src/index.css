@@ -5,9 +5,113 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(107, 107, 146);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App {
+  font-family: sans-serif;
+}
+
+
+textarea {
+  /* border: 1px solid #999; */
+  width: 100%;
+  height: 20em;
+}
+
+
+.code-edit-container {
+  position: relative;
+  height: 500px;
+  /* border: 1px solid hsl(0, 0%, 60%); */
+  margin: 1em 0;
+}
+
+.code-input,
+.code-output {
+  top: 0;
+  position: absolute;
+  height: 100%;
+  padding: 1rem;
+  border: none;
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  font-size: 0.8rem;
+
+  white-space: pre-wrap;
+  line-height: 1.5em;
+  word-wrap: break-word;
+  font-size: 1rem;
+}
+
+.code-input {
+  width: 100%;
+  left: 0;
+  opacity: 1;
+  margin: 0;
+  color: hsl(0, 0%, 40%);
+  resize: none;
+}
+
+.code-output {
+  color: black;
+  width: 100%;
+  left: 0;
+  z-index: 3;
+  overflow-y: auto;
+  border: 1px solid black;
+  color: white;
+}
+code {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 1rem;
+  display: block;
+  color: hsl(0, 0%, 40%);
+  font-size: 0.8rem;
+  font-family: "PT Mono", monospace;
+}
+
+.tag:not(body) {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 0;
+  display: initial;
+  font-size: 1em;
+  height: 2em;
+  justify-content: center;
+  line-height: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  white-space: nowrap;
+}
+
+.number {
+  align-items: initial;
+  background-color: initial;
+  border-radius: initial;
+  display: initial;
+  font-size: 1rem;
+  height: initial;
+  justify-content: initial;
+  margin-right: initial;
+  min-width: initial;
+  padding: initial;
+  text-align: initial;
+  vertical-align: inherit;
+}
+
+.code-edit-container :not(pre) > code[class*="language-"],
+.code-edit-container pre[class*="language-"] {
+  background: transparent;
+  margin: 0;
+}
+.tree{
+  background-color: white;
+  color: black;
 }
